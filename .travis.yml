@@ -16,3 +16,4 @@ script:
     - mkdir -p ~/.julia/JSON
     - cp -R ./* ~/.julia/JSON/
     - julia ~/.julia/JSON/test/JSON.jl
+    - echo ":D"
